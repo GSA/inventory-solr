@@ -15,7 +15,8 @@ $ docker build -t datagov/inventory-solr .
 $ docker run -d -p 8983:8983 --name solr datagov/inventory-solr
 ```
 
-In your browser, you must be able to open (replace `localhost` with host name of your VM if needed): http://localhost:8983/solr
+In your browser, you must be able to open (replace `localhost` with host name of your VM if needed): 
+[http://localhost:8983/solr](http://localhost:8983/solr)
 
 ## CKAN config
 Configure your CKAN .ini file to use your new SOLR instance (replace `localhost` with host name of your VM if needed)
