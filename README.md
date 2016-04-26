@@ -11,6 +11,7 @@ $ docker run -d -p 8983:8983 --name solr datagov/inventory-solr
 2) Build an image from Dockerfile from this repo
 ```bash
 $ git clone https://github.com/GSA/inventory-solr.git
+$ cd inventory-solr
 $ docker build -t datagov/inventory-solr .
 $ docker run -d -p 8983:8983 --name solr datagov/inventory-solr
 ```
